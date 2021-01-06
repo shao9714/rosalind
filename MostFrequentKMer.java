@@ -71,7 +71,7 @@ public class MostFrequentKMer {
 
     public void readFile(StringBuffer b) throws Exception {
 
-        File file = new File("/Users/annielynn/Desktop/rosalind_ba1b.txt");
+        File file = new File("rosalind_ba1b.txt");
         Scanner sc = new Scanner(file);
         int count = 0;
 

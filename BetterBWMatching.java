@@ -90,7 +90,7 @@ public class BetterBWMatching {
 
     public void readFile(StringBuffer b) throws Exception {
 
-        File file = new File("/Users/annielynn/Desktop/rosalind_ba9m.txt");
+        File file = new File("/rosalind_ba9m.txt");
         Scanner sc = new Scanner(file);
 
         b.append(sc.nextLine());

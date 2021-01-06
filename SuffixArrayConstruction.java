@@ -44,7 +44,7 @@ public class SuffixArrayConstruction {
 
     public void readFile(StringBuffer b) throws Exception {
 
-        File file = new File("/Users/annielynn/Desktop/school/CMSC423/Suffix Array Construction/test.txt");
+        File file = new File("path-to-file/file.txt");
         Scanner sc = new Scanner(file);
 
         while (sc.hasNextLine()) {
